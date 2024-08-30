@@ -1,0 +1,30 @@
+table, th, td {
+    border: 1px solid black; border-collapse: collapse
+}
+.text {
+    color:red
+}
+
+.credits {
+    font-family:'Georgia',serif;
+    font-weight: bold;
+  }
+
+.input {
+    align-items: center;
+    gap: 20px;
+    border: 2px solid rgb(204, 115, 164) ;
+    border-radius: 3px;
+
+}
+
+.submit {
+    color: black;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.submit:hover{
+    color:rgb(211, 156, 191) ;
+    background-color: black;
+}

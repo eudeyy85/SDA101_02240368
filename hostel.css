@@ -1,0 +1,30 @@
+.credits {
+    font-family:'Georgia',serif;
+    font-weight: bold;
+  }
+
+.input {
+    align-items: center;
+    gap: 20px;
+    border: 2px solid rgb(46, 45, 45) ;
+    border-radius: 1px;
+
+}
+
+.Academic Events {
+    color: black;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    color: black;
+    background-color: rgb(148, 91, 148);
+    border-radius: 5px;
+}
+
+body {
+    background-color:rgb(171, 149, 192) ;
+}
+
+
