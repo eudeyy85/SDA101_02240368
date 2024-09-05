@@ -1,4 +1,5 @@
-ol {
+.body
+{
     list-style-type: upper-alpha;
     margin: 20px;
     font-family: Arial, sans-serif;
@@ -14,6 +15,7 @@ ol {
 
 .e:hover{
     color: rgb(33, 114, 114);
+    
 }
 
 .u:hover{
@@ -41,7 +43,13 @@ ol {
     border-radius: 15px;
 }
 
+.list {
+    list-style-type: upper-alpha;
+}
 
+.u{
+    list-style-type: disc;
+}
 
 
 
