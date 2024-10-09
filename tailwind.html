@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="tailwind.css"></script>
 </head>
 <body>
   <h1 class="bg-blue-300">Hello,my name is Eudey</h1>
@@ -18,7 +18,70 @@
   <p class="text-blue-400">College</p>
   <p class="text-blue-500 text-opacity-50">Semi-transparent blue text</p>
   <p class="text-center">Centered text</p>
-
-
+  <div class="m-4 p-2">Spaced content</div>
+  <ul class="list-disc list-inside">
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+  <div class="m-4 p-2">Padding</div>
+  <div class="m-4">Content with margin</div>
+  <div class="border-2 border-blue-500 border-dashed">Bordered content</div>
+  <div class="bg-red-500 bg-opacity-50">Content with background</div>
+  <div class="bg-blue-500 text-white">Blue background, white text</div>
+  <img class="w-full h-48 object-cover" src="WhatsApp Image 2024-09-28 at 14.57.26_1e5686eb.jpg" alt="Description">
+  <div class="w-1/2 max-w-md">Half width, max 448px</div>
+  <div class="h-screen">Full viewport height</div>
+  <div class="h-screen">Full viewport height</div>
+  <div class="container mx-auto px-4">Centered content</div>
+  <div class="flex flex-col md:flex-row">
+    <nav class="w-full md:w-1/4">Navigation</nav>
+    <main class="w-full md:w-3/4">Main content</main>
+  </div>
+  <img class="float-left mr-4" src="WhatsApp Image 2024-09-28 at earports.jpg" alt="Floated image">
+  <div class="clear-both">Cleared content</div>
+  <div class="relative h-32">
+    <div class="absolute top-0 right-0">Top right corner</div>
+  </div>
+  <div class="z-10 relative">Above normal flow</div>
+  <table class="table-auto border-collapse border border-gray-300">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="border border-gray-300 px-4 py-2">Column 1</th>
+        <th class="border border-gray-300 px-4 py-2">Column 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">Data 1</td>
+        <td class="border border-gray-300 px-4 py-2">Data 2</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="grid grid-cols-3 gap-4">
+    <div class="bg-blue-500 p-4">1</div>
+    <div class="bg-blue-500 p-4 col-span-2">2</div>
+    <div class="bg-blue-500 p-4">3</div>
+  </div>
+  <div class="flex flex-row justify-between items-center">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+  </div>
+  <div class="flex items-center justify-center h-screen bg-gray-100">
+    <div class="text-center">
+      <p class="text-xl mb-4">Scroll Down</p>
+      <svg class="w-6 h-6 mx-auto text-blue-500 animate-bounce" stroke-width="3" stroke="red">
+        <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+      </svg>
+    </div>
+  </div>
+  <div class="transform scale-100 rotate-45 translate-x-4 translate-y-4">
+    Transformed element
+  </div>
+  <button class="bg-blue-500 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50">
+    Button
+  </button>
+  cd
+  
 </body>
 </html>
