@@ -2,7 +2,7 @@
 The main conceptsis to create an list of my semesters modules in an unordered list.
 
 # New Skills and knowledge acquired
-New skills and knowledge that i acquired is to list items in unordered lists, make the conner of the box curve and style the font.
+New skills and knowledge that i acquired is to list items in unordered lists and nested lists, make the conner of the box curve to make it responsive and style the font. 
 
 # What I Learned.
 While doing this exercises I learned how to set background color and set different font properties.I also learned how to make list of items in unordered lists.Even gained an understanding of the function margin: 0; padding: 0; that is used to remove any default margins and padding. Moreover, grasped the function of padding, font functions,text functions like centering the content and styling body with different effects.

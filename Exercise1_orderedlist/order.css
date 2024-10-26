@@ -1,0 +1,47 @@
+body {
+    font-family: Arial,sans-serif;
+    background-color: rgb(226, 158, 196);
+    margin: 0px;
+    padding: 0px;
+}
+
+.schedule {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(199, 68, 199);
+}
+
+.list li {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 16px;
+    color: rgb(24, 147, 163); 
+    margin-bottom: 10px; 
+}
+
+.list ol {
+    list-style-type: lower-alpha;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.list ol li {
+    font-size: 12px;
+    color: rgb(100, 6, 92);
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(248, 186, 205);
+    border-left: 3px solid rgb(126, 198, 240);
+    list-style-type: disc;
+}
+
