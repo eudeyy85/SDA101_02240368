@@ -1,1 +1,0 @@
-Make a grade record for your semester.
