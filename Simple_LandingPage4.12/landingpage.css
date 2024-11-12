@@ -28,7 +28,6 @@
 
   .product {
     position: relative;
-    background-image: url('https://via.placeholder.com/1200x400');
     background-size: cover;
     background-position: center;
     height: 50vh;
@@ -41,9 +40,11 @@
   .product h1 {
     font-size: 2.5em;
     margin-bottom: 0.5em;
+    color: #807a7a;
   }
   .product p {
     font-size: 1.2em;
+    color: #807a7a;
   }
 
   main {
@@ -71,30 +72,27 @@
   }
   .product-card p {
     font-size: 1.1em;
-    color: #333;
+    color: #c773b5;
   }
 
-  /* Footer Styles */
   footer {
-    background-color: #333;
+    background-color: #c773b5;
     color: #fff;
     text-align: center;
     padding: 1em;
     margin-top: 2em;
   }
-  .footer-links {
+  .footers {
     display: flex;
     justify-content: center;
     list-style: none;
     gap: 1.5em;
     margin-bottom: 0.5em;
   }
-  .footer-links li a {
+  .footers li a {
     color: #fff;
     text-decoration: none;
   }
-
-  /* Responsive Styles */
   @media (min-width: 768px) {
     .hero h1 {
       font-size: 3em;
